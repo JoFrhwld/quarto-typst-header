@@ -1,0 +1,33 @@
+---
+title: "Where do the headers go?"
+author:
+  name: Josef Fruehwald
+  affiliation: Organization
+  email: "jofrhwld@gmail.com"
+date: today
+abstract: |
+  Lorem  ipsum  dolor  sit  amet,  consectetur  adipiscing  elit,  
+  sed  do  eiusmod  tempor  incididunt  utlabore et dolore
+  magnam aliquam quaerat voluptatem. Ut enim aeque doleamus animo, 
+  cum cor-pore dolemus, fieri tamen permagna accessio potest, 
+  si aliquod aeternum et infinitum impenderemalum nobis opinemur. 
+  Quod idem licet transferre in voluptatem, ut postea variari 
+  voluptas dis-tinguique possit, augeri amplificarique non possit. 
+  At etiam Athenis, ut e patre audiebam faceteet urbane Stoicos 
+  irridente, statua est in quo a nobis philosophia defensa et.
+format: 
+  typst: 
+    section-numbering: "1.1"
+    include-in-header: header.typ
+---
+
+# The first section
+
+```{=typst}
+#lorem(80)
+```
+## Subsection
+
+```{=typst}
+#lorem(100)
+```
