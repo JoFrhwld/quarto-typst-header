@@ -19,6 +19,7 @@ format:
   typst: 
     section-numbering: "1.1"
     include-in-header: header.typ
+    keep-typ: true
 ---
 
 # The first section
@@ -30,4 +31,13 @@ format:
 
 ```{=typst}
 #lorem(100)
+```
+# Info
+
+```{r}
+quarto::quarto_version()
+```
+
+```{r}
+system2("typst", "--version", stdout = TRUE)
 ```

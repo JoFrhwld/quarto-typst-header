@@ -1,0 +1,24 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# quarto-typst-header
+
+A repo to document a less-than-desireable behavior of trying to set a header in typst output.
+
+```{r}
+quarto::quarto_version()
+```
+
+```{r}
+system2("typst", "--version", stdout = TRUE)
+```
